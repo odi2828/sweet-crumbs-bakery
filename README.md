@@ -54,7 +54,7 @@ The website includes:
 - Embedded Google Maps.
 - Responsive layouts for desktop, tablet and mobile devices.
 
-**Note:** The contact form prepares an email in the visitor's default email application. The visitor must review and send the email themselves.
+
 
 ---
 
@@ -85,7 +85,7 @@ The following SEO improvements were implemented:
 - `robots.txt` file to provide crawling instructions.
 - `sitemap.xml` file listing the website pages.
 
-The sitemap and robots.txt files must be updated with the final deployed website URL before submission.
+
 
 ---
 
@@ -211,7 +211,7 @@ sweet-crumbs/
 - Implemented a lightbox to enlarge product images.
 - Added HTML5 validation attributes to the enquiry form.
 - Added JavaScript validation to the enquiry form.
-- Added message-type selection to the contact form.
+- Added messagetype selection to the contact form.
 - Implemented contact form validation and email preparation.
 - Added unique titles and meta descriptions to all five pages.
 - Added Open Graph metadata.
@@ -224,7 +224,7 @@ sweet-crumbs/
 
 ## References
 
-Add the sources actually consulted during development, using the referencing style required by the module.
+
 
 - Mozilla Developer Network (MDN). HTML, CSS and JavaScript documentation. https://developer.mozilla.org/
 - Font Awesome. Icon documentation. https://fontawesome.com/
