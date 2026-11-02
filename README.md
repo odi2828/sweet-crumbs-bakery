@@ -14,6 +14,7 @@
 Sweet Crumbs Bakery is a fictional South African bakery established in 2021. This website was developed as part of a web development project.
 
 The website provides customers with information about the bakery, its products, business locations and contact details. It also allows visitors to search for products, submit order enquiries and prepare contact messages.
+https://sweet-crumbs-bakery-odi.netlify.app
 
 ## Website Goals and Objectives
 
@@ -49,7 +50,15 @@ The website includes:
 - Interactive product image lightbox.
 - Order enquiry form with HTML5 and JavaScript validation.
 - Contact form with HTML5 and JavaScript validation.
-- Email preparation using a `mailto:` link.
+- Email preparation using a `mailto:` link.(AJAX form submission using Netlify Forms.
+
+
+
+Order enquiry and contact forms with HTML5 and JavaScript validation.
+
+
+
+Confirmation messages after successful submissions.)
 - Business locations and operating hours.
 - Embedded Google Maps.
 - Responsive layouts for desktop, tablet and mobile devices.
@@ -67,7 +76,7 @@ The website includes:
 - **Google Maps:** Embedded location maps.
 - **Visual Studio Code:** Code editor.
 - **Git and GitHub:** Version control and project repository.
-- **Netlify or GitHub Pages:** Planned website deployment.
+- **Netlify or GitHub Pages:** Planned website deployment.(Netlify: Website hosting, deployment and form handling.)
 
 ---
 
@@ -84,6 +93,7 @@ The following SEO improvements were implemented:
 - Semantic HTML elements and heading structure.
 - `robots.txt` file to provide crawling instructions.
 - `sitemap.xml` file listing the website pages.
+- he robots.txt and sitemap.xml files have been updated to reference the live Netlify website URL.
 
 
 
@@ -114,7 +124,7 @@ The contact form collects:
 - Message type.
 - Message content.
 
-JavaScript validates the information and prepares an email using the visitor's default email application.
+JavaScript validates the information and prepares an email using the visitor's default email application.(oth the order enquiry and contact forms use HTML5 and JavaScript validation. Form submissions are handled through Netlify Forms using AJAX. Successful submissions display a confirmation message)
 
 ---
 
@@ -146,6 +156,7 @@ sweet-crumbs/
 ├── robots.txt
 ├── sitemap.xml
 ├── README.md
+|--success.html
 │
 ├── css/
 │   └── style.css
