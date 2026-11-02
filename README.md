@@ -241,3 +241,29 @@ sweet-crumbs/
 - Font Awesome. Icon documentation. https://fontawesome.com/
 - Google Maps. https://www.google.com/maps
 - Google Search Central. SEO Starter Guide. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+1. Define SEO and explain its purpose in web development.
+
+SEO (Search Engine Optimisation) means improving a website so that it can appear in search engine results, such as Google. For Sweet Crumbs Bakery SEO helps people find the website when searching for cakes, cupcakes, brownies and other baked treats.
+
+2. Explain how SEO practices improve UX and website performance.
+
+SEO improves user experience by making websites easier to use and information easier to find. Sweet Crumbs uses clear navigation, mobilefriendly layouts and organised product pages to help visitors browse the website. Optimised images can also help pages load faster.
+
+3. Discuss the benefits of implementing SEO on a website.
+
+SEO can help Sweet Crumbs Bakery reach more people, attract potential customers and improve its online visibility. It also makes the bakery's products and contact information easier for visitors to find through search engines.
+
+4. Explain and demonstrate specific SEO techniques using HTML, CSS and JavaScript.
+
+Sweet Crumbs uses descriptive page titles, meta descriptions, headings and image alt text in HTML. CSS media queries make the website suitable for mobile devices, while JavaScript allows visitors to search for products. The website also includes `sitemap.xml` and `robots.txt` to help search engines find its pages.
+
+5. Explain the purpose of HTML meta elements and demonstrate relevant examples.
+
+HTML meta elements provide extra information about a webpage to browsers and search engines. Sweet Crumbs uses a description tag to summarise each page, a viewport tag to support mobile devices and Open Graph tags to improve how pages appear when shared on social media.
+
+Examples:
+
+- `<meta name="description" content="Discover freshly baked cakes and treats at Sweet Crumbs Bakery.">`
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+- `<meta property="og:title" content="Sweet Crumbs Bakery">`
+
