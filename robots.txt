@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https//your-website-url.com/sitemap.xml
+Sitemap: https://sweet-crumbs-bakery-odi.netlify.app/sitemap.xml
