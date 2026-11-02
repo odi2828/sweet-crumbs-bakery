@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Sweet Crumbs Bakery | Pretoria &amp; Johannesburg</title>
+
+    <meta name="description" content="Contact Sweet Crumbs Bakery in Pretoria or Johannesburg. Find our contact details, business hours and send us a message about our bakery products.">
+
+    <meta name="keywords" content="contact Sweet Crumbs Bakery, bakery Pretoria, bakery Johannesburg, bakery contact details, bakery enquiries">
+
+    <meta name="author" content="Sweet Crumbs Bakery">
+
+    <meta property="og:title" content="Contact Sweet Crumbs Bakery">
+    <meta property="og:description" content="Get in touch with Sweet Crumbs Bakery in Pretoria or Johannesburg.">
+    <meta property="og:type" content="website">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Website header-->
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <!--Main navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!--Main Website Content-->
+    <main>
+        <section class="contact-intro">
+            <h2>Contact Sweet Crumbs Bakery</h2>
+            <p>
+                Have a question about our products or want to place an order?<br>
+                Get in touch with our team using the info below.
+            </p>
+        </section>
+        <section class="location-section">
+            <h2><i class="fa-solid fa-location-dot"></i> Pretoria Location</h2>
+            <p>
+                Sweet Crumbs Bakery - Pretoria
+            </p>
+            <p>
+                123 Burnett Street, Pretoria Gauteng
+            </p>
+            <p>
+                Phone:012 546 2345
+            </p>
+        </section>
+        <section class="location-section">
+            <h2><i class="fa-solid fa-location-dot"></i> Location</h2>
+            <p>
+                Sweet Crumbs Bakery - Johannesburg
+            </p>
+            <p>
+                45 Main Street, Johannesburg Gauteng
+            </p>
+            <p>
+                Phone:011 234 5678
+            </p>
+        </section>
+        <section class="hours-section">
+            <h2><i class="fa-solid fa-clock"></i>Hours</h2>
+            <ul>
+                <li>Monday-Friday:08:00-17:00</li>
+                <li>Saturday:08:00-15:00</li>
+                <li>Sunday:08:00-13:00</li>
+            </ul>
+        </section>
+        <section class="contact-details">
+            <h2><i class="fa-solid fa-address-book"></i> Details</h2>
+            <p> <i class="fa-solid fa-envelope"></i>
+                Email
+                <a href="mailto:hello@sweetcrumbs.co.za">hello@sweetcrumbs.co.za</a>
+            </p>
+            <p> <i class="fa-solid fa-phone"></i>
+                Phone:
+                <a href="tel:+27125462345">0125462345</a>
+
+            </p>
+        </section>
+        <section class="contact-form-section">
+    <h2><i class="fa-solid fa-envelope"></i> Send us a message</h2>
+
+    <p>Complete the form below and our team will be happy to assist you.</p>
+
+    <form id="contactForm" name="contact-message" method="POST"
+      action="/success.html" data-netlify="true"
+      data-netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact-message">
+    <p hidden>
+    <label>Do not fill this out: <input name="bot-field"></label>
+</p>
+
+        <label for="contact-name">Full name:</label>
+        <input type="text" name="contact-name" id="contact-name"
+               required minlength="2" maxlength="60">
+
+        <br><br>
+
+        <label for="contact-email">Email Address:</label>
+        <input type="email" id="contact-email" name="contact-email" required>
+
+        <br><br>
+
+        <label for="message-type">Message type:</label>
+        <select id="message-type" name="message-type" required>
+            <option value="">Select a message type</option>
+            <option value="General enquiry">General enquiry</option>
+            <option value="Product question">Product question</option>
+            <option value="Order support">Order support</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br><br>
+
+        <label for="message">Your message:</label>
+        <br>
+        <textarea name="message" id="message" rows="6" cols="40"
+                  minlength="10" maxlength="1000"
+                  placeholder="Enter your message here..." required></textarea>
+
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+        <p id="contactMessage" role="status" aria-live="polite"></p>
+
+    </form>
+</section>
+        <section class="map-section">
+    <h2><i class="fa-solid fa-location-dot"></i> Find Us</h2>
+
+    <p>Visit one of our sweet spots in Pretoria or Johannesburg.</p>
+
+    <h3>Pretoria</h3>
+    <iframe
+        src="https://www.google.com/maps?q=123+Burnett+Street,+Pretoria,+South+Africa&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;"
+        loading="lazy"
+        allowfullscreen
+        title="Map showing the Pretoria bakery location">
+    </iframe>
+
+    <h3>Johannesburg</h3>
+    <iframe
+        src="https://www.google.com/maps?q=45+Main+Street,+Johannesburg,+South+Africa&output=embed"
+        width="100%"
+        height="350"
+        style="border:0;"
+        loading="lazy"
+        allowfullscreen
+        title="Map showing the Johannesburg bakery location">
+    </iframe>
+</section>
+    </main>
+    <!--Website footer-->
+    <footer>
+        <p>&copy;2026 Sweet Crumbs Bakery. All rights reserved.</p>
+        <p> <i class="fa-solid fa-location-dot"></i>
+            Pretoria|Johannesburg</p>
+        <p> <i class="fa-solid fa-envelope"></i>
+            Email: hello@sweetcrumbs.co.za</p>
+        <p>Follow us</p>
+
+        <p class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </p>
+    </footer> 
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bakery Products | Cakes, Cupcakes &amp; Desserts | Sweet Crumbs</title>
+
+    <meta name="description" content="Explore Sweet Crumbs Bakery's selection of freshly baked cakes, cupcakes, brownies, cookies and dessert boxes for everyday treats and special occasions.">
+
+    <meta name="keywords" content="bakery products, custom cakes, cupcakes, brownies, cookies, dessert boxes, freshly baked treats, Sweet Crumbs Bakery">
+
+    <meta name="author" content="Sweet Crumbs Bakery">
+
+    <meta property="og:title" content="Our Bakery Products | Sweet Crumbs Bakery">
+    <meta property="og:description" content="Explore our delicious range of cakes, cupcakes, brownies, cookies and dessert boxes.">
+    <meta property="og:type" content="website">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Website header-->
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <!--Main navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Product search -->
+    <section class="product-search">
+        <h2>Find Your Favourite Treat</h2>
+        <label for="productSearch">Search our products:</label>
+        <input
+            type="search"
+            id="productSearch"
+            placeholder="Search cupcakes, brownies, cookies..."
+        >
+        <p id="searchMessage" aria-live="polite"></p>
+    </section>
+
+        <div class="products-page-grid">
+    
+
+
+        <!--cupcakes-->
+        <section class="product-item">
+            <h2>Cupcakes</h2>
+            <img src="images/cupcakes.jpg"
+                 srcset="images/cupcakes.jpg 600w,
+             images/cupcakes.jpg 1000w,
+             images/cupcakes.jpg 1500w"
+     sizes="(max-width: 768px) 100vw, 33vw"
+                 alt="assorted cupcakes">
+            <p>
+                Our cupcakes are freshly baked and<br>
+                available in a variety of flavours<br>
+                and decorative designs
+            </p>
+        </section>
+
+        <section class="product-item">
+            <h2>Brownies</h2>
+            <img src="images/brownies.jpg"
+                 srcset="images/brownies.jpg 600w,
+             images/brownies.jpg 1000w,
+             images/brownies.jpg 1500w"
+     sizes="(max-width: 768px) 100vw, 33vw"
+                 alt="Chocolate brownies">
+            <p>
+                Rich and soft chocolate brownies made<br>
+                for customers who enjoy a delicious sweet treats.<br>
+            </p>
+        </section>
+
+        <section class="product-item">
+            <h2>Cookies</h2>
+            <img src="images/cookies.jpg"
+                 srcset="images/cookies.jpg 600w,
+             images/cookies.jpg 1000w,
+             images/cookies.jpg 1500w"
+     sizes="(max-width: 768px) 100vw, 33vw"
+                 alt="Freshly baked cookies">
+            <p>
+                Freshly baked cookies available in<br>
+                a range of flavours suitable for sharing<br>
+                or enjoying as an individual treat.
+
+            </p>
+        </section>
+        <section class="product-item">
+            <h2>Dessert boxes</h2>
+            <img src="images/dessert-boxes.jpg"
+                 srcset="images/dessert-boxes.jpg 600w,
+             images/dessert-boxes.jpg 1000w,
+             images/dessert-boxes.jpg 1500w"
+     sizes="(max-width: 768px) 100vw, 33vw"
+                 alt="assorted dessert box">
+            <p>
+                Our dessert boxes contain a selection <br>
+                of sweet treats and are suitable for gifts,<br>
+                parties and special events.
+
+            </p>
+        </section>
+        </div>
+        <!--product enquiry call to action-->
+        <section>
+            <h2>Interested in Our Products</h2>
+            <p>
+                Contact us to enquire about products,<br>
+                prices,availability and custom orders
+            </p>
+            <a href="enquiry.html">Make an Enquiry</a>
+        </section>
+        <!-- Product image lightbox -->
+<div id="imageLightbox" class="lightbox">
+    <button id="closeLightbox" class="close-lightbox" aria-label="Close image">
+        &times;
+    </button>
+    <img id="lightboxImage" src="" alt="Enlarged product image">
+</div>
+
+    </main>
+    <!--Website Footer-->
+     <footer>
+        <p>&copy;2026 Sweet Crumbs Bakery. All rights reserved.</p>
+        <p> <i class="fa-solid fa location-dot"></i>
+            Pretoria|Johannesburg</p>
+        <p> <i class="fa-solid fa-envelope"></i>
+            Email: hello@sweetcrumbs.co.za</p>
+        <p>Follow us</p>
+
+        <p class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </p>
+    </footer> 
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
